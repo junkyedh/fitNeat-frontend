@@ -1,0 +1,113 @@
+.profile-section {
+    background-color: var(--mainbackgroundClr); /* Tùy chọn màu nền */
+    padding-bottom: 30px;
+    width: 70%;
+    margin: 0 auto;
+    
+    .h3{
+      color: var(--white);
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+    }
+    .card-header {
+      background-color: var(--backgroundClr2);
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(247, 247, 247, 0.1);
+
+
+    }
+    .profile-card {
+      width: 60%;
+      //margin-left: 30px;
+      background: transparent;
+      
+      max-width: 800px; /* Giới hạn chiều rộng của card */
+      ///margin: 0 15px; /* Thêm margin nếu cần */
+    }
+    
+    .profile-img-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+      background-color: var(--backgroundClr2);
+      
+      .profile-img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        //margin-bottom: 15px;
+      }
+  
+      .image-upload {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        .upload-btn {
+          margin-top: 10px;
+          background-color: var(--secondaryClr);
+          border: none;
+          color: var(--textClr2);
+        }
+      }
+    }
+  
+    .profile-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      background-color: transparent;
+      color: var(--primaryClr);
+  
+      .form-group {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+  
+        label {
+          font-size: 1.2rem;
+          color: var(--primaryClr) !important;
+          font-weight: bold;
+        }
+  
+        input {
+          padding: 10px;
+          border: 1px solid var(--primaryClr);
+          border-radius: 5px;
+          background-color: var(--backgroundClr2);
+          color: var(--white);
+        }
+      }
+  
+      .btn-group {
+        display: flex;
+        gap: 10px;
+  
+        .primaryBtn {
+          width: 50%;
+        }
+  
+        .secondaryBtn {
+          width: 50%;
+        }
+      }
+    }
+
+    .primaryBtn {
+      width: 100%;
+      background-color: var(--secondaryClr) !important;
+      color: #000;
+      border: none;
+
+      &:hover {
+        color: var(--backgroundClr2);
+      }
+    }
+  }
+  

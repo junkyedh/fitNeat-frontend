@@ -1,0 +1,87 @@
+.workout-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #000;
+  color: #fff;
+  max-width: 380px;
+  position: relative;
+  border: 1px solid #9b84ff; /* Màu viền */
+  border-style: hidden;
+  cursor: pointer;
+
+  &__image-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: 0;
+  }
+
+  &__content {
+    padding: 16px;
+    border-left: 1px solid #9b84ff; /* Màu viền bên trái */
+    border-right: 1px solid #9b84ff; /* Màu viền bên phải */
+    border-bottom: 1px solid #9b84ff; /* Màu viền bên dưới */
+    border-radius: 0 0 16px 16px;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 8px 0;
+    color: #d9ff59; /* Màu chữ tiêu đề */
+  }
+
+  &__info {
+    display: flex;
+    gap: 40%;
+    margin: 16px 10px;
+
+    &-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 1rem;
+      color: white;
+
+
+      i {
+        font-size: 1.2rem;
+        color: #9b84ff; /* Màu biểu tượng */
+      }
+    }
+  }
+
+  &__action {
+    position: absolute;
+    bottom: 95px;
+    right: 30px;
+  }
+
+  &__play-button {
+    width: 48px;
+    height: 48px;
+    background-color: #9b84ff; /* Màu nền nút */
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background-color: #7d6bf9;
+    }
+  }
+}

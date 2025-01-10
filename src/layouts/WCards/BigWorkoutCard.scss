@@ -1,0 +1,94 @@
+.big-workout-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: transparent;
+    color: #fff;
+    position: relative;
+    max-width: 800px;
+    padding: 50px 0 50px 0;
+    cursor: pointer;
+  
+    &__image-wrapper {
+      position : relative;
+      height: 350px;
+      overflow: hidden;
+      position: relative;
+      border-radius: 16px 16px 0 0;
+      &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+      }
+    }
+  
+    &__image {
+      width: 100%;
+      height: 100%;
+      object-fit:fill;
+    }
+  
+    &__label {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      background-color: #d9ff59;
+      padding: 14px 25px;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #000;
+      z-index: 1;
+    }
+  
+    &__info {
+      display: flex;
+      justify-content: flex-start;
+      gap: 2%;
+      padding: 20px 24px;
+      background-color: rgba(30, 29, 29, 0.5);
+      color: rgba(255, 255, 255, 0.5); 
+      border-radius: 0 0 24px 24px;
+      font-size: 1rem;
+
+    
+  
+      &-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 1rem;
+        color: white;
+  
+        i {
+          color: #9b84ff; /* Màu biểu tượng */
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .bigworkout-card__action {
+    position: absolute;
+    top: 40%;
+    right: 40%;
+  }
+
+  .bigworkout-card__play-button {
+    width: 80px;
+    height: 80px;
+    background-color: #9b84ff; /* Màu nền nút */
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background-color: var(--secondaryClr);
+    }
+  }
