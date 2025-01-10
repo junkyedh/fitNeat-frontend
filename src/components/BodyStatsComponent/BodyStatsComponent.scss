@@ -1,0 +1,36 @@
+.body-stats {
+    background: linear-gradient(360deg, #5c9aff, #b392f2);
+    //padding: 1rem;
+    padding-bottom: 1.5rem;
+    border-radius: 10px;
+    color:thistle;
+    text-align: center;
+  
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .stat-item {
+        flex: 1;
+        margin: 0 1rem;
+
+        h3 {
+          font-size: 2rem !important;
+          margin-bottom: 0.5rem;
+          font-weight: bold !important;
+          font-family: "Poppins", sans-serif;
+        }
+        p {
+          font-size: 1.5rem;
+          color:bisque;
+        }
+  
+        svg {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  
