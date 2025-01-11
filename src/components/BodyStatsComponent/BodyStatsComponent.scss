@@ -1,9 +1,9 @@
 .body-stats {
-    background: linear-gradient(360deg, #5c9aff, #b392f2);
+    background: linear-gradient(360deg, #000, #272626);
     //padding: 1rem;
     padding-bottom: 1.5rem;
     border-radius: 10px;
-    color:thistle;
+    color: var(--backgroundClr2);
     text-align: center;
   
     .row {

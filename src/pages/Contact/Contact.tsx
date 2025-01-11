@@ -16,10 +16,10 @@ const Contact = () => {
         <Container>
           <Row>
             <Col md="12">
-              <h1 className="mb-2 h1 font-bold">
+              <h1 style={{color:"white"}} className="mb-2 h1 font-bold text-center">
                 Let's connect and get to know each other
               </h1>
-              <p className="body-text mt-1">
+              <p style={{color:"white"}} className="body-text mt-1 text-center">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
               </p>
             </Col>

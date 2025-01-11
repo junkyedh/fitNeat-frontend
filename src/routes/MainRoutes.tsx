@@ -8,7 +8,7 @@ import Contact from "../pages/Contact/Contact";
 import Landing from "../pages/Landing/Landing";
 import SetUp from "../pages/Landing/partials/SetUp/SetUp";
 import NutritionList from "../pages/Nutrition/NutritionList";
-import ProfileUser from "../pages/ProfileUser/ProfileUser";
+import ProfileUser from "../pages/Landing/ProfileUser/ProfileUser";
 import WorkoutList from "../pages/Workout/WorkoutList";
 import HomePage from "../pages/HomePage/HomePage";
 import Beginner from "../pages/Workout/Beginner/Beginner";

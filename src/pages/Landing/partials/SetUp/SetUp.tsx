@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { Settings } from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,6 +11,8 @@ import Breadcrumbs from "../../../../layouts/Breadcrumbs/Breadcrumbs";
 
 const SetUp = () => {
   const nav = useNavigate();
+    const [selectedFilter, setSelectedFilter] = useState<string>("");
+  
   var settings: Settings = {
     dots: false,
     infinite: true,
@@ -155,7 +157,6 @@ const SetUp = () => {
           </Row>
             <Modal 
             title="Enter Your Goal" 
-            visible={isModalVisible}
             onOk={handleOk} 
             onCancel={handleCancel}
             okButtonProps={{
@@ -182,7 +183,7 @@ const SetUp = () => {
         </Container>
       </section>
 
-      <section className="box1 shadow-sm pt-5 pb-5">
+      <section className="pt-5 pb-5">
         <Container>
           <Row>
             <Col md={12} xs={12}>
@@ -196,19 +197,19 @@ const SetUp = () => {
                       >
                         Physical Activity Level
                       </Card.Title>
-                        <div className="level d-flex flex-wrap max-md:max-w-full">
-                        {["Beginner", "Intermediate", "Advanced"].map((level, index) => (
-                          <Button
-                            type="primary"
-                            key={index}
-                            className="flex flex-col items-center mx-4 bg-white rounded-4"
-                            onClick={() => console.log(`${level} level selected`)}
-                            style={{ cursor: "pointer", fontSize: "1.5rem", color: "var(--black)", margin: "1rem 0.5rem", padding: "2rem 2rem"}}
-                          >
-                          {level}
-                          </Button>
-                        ))}
+                      <Row className="justify-content-center mb-4">
+                        <div className="filter-buttons">
+                          {["Beginner", "Intermediate", "Advanced"].map((level) => (
+                            <Button
+                              key={level}
+                              className={`filter-button ${selectedFilter === level ? "active" : ""}`}
+                              onClick={() => setSelectedFilter(level)}
+                            >
+                              {level}
+                            </Button>
+                          ))}
                         </div>
+                      </Row>
                         <div className="d-flex flex-wrap justify-content-center max-md:max-w-full mt-5">
                           <div className="d-flex flex-row align-items-center mx-4">
                             <span style={{ fontSize: "1.5rem", color: "var(--white)", margin: "1rem 1rem" }}>Age:</span>
