@@ -16,6 +16,7 @@ import MyRoutine from "../pages/Workout/MyRoutine/MyRoutine";
 import MealPlans from "../pages/Nutrition/MealPlans/MealPlans";
 import Config from "../pages/Nutrition/Config/Config";
 import ConfigFinal from "../pages/Nutrition/Config/ConfigFinal";
+import Progress from "../pages/Progress/Progress";
 
 
 
@@ -39,6 +40,7 @@ export default function MainRoutes() {
         <Route path="nutrition-list-plans" element={<MealPlans />} />
         <Route path="nutrition-list-config" element={<Config />} />
         <Route path="nutrition-list-configFinal" element={<ConfigFinal />} />
+        <Route path="progress" element={<Progress />} />
       </Routes>
       <Footer />
     </>

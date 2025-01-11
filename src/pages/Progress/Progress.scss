@@ -1,0 +1,133 @@
+.progress-section {
+    background-color: #000;
+    color: #fff;
+  
+    .progress-tracking-container {
+      max-width: 900px;
+      margin: 0 auto;
+  
+      .user-profile, 
+      .calendar-section, 
+      .steps-section,
+      .activities-list, 
+      .steps-list {
+        background-color: #272727;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+  
+        h4, h5 {
+          font-size: 1.5rem;
+          color: #ffef00;
+        }
+  
+        p, small {
+          color: #ddd;
+        }
+  
+        .profile-image {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          margin-top: 10px;
+        }
+      }
+  
+      .activities-list, 
+      .steps-list {
+        list-style: none;
+        padding: 0;
+  
+        .activity-item, 
+        .step-item {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px;
+          background-color: #333333;
+          border-radius: 8px;
+          margin-bottom: 10px;
+  
+          .activity-icon, 
+          .step-date {
+            font-size: 2rem;
+            color: #ffef00;
+            flex: 1 1 auto;
+            text-align: center;
+          }
+  
+          .activity-details, 
+          .step-details {
+            flex: 3 1 auto;
+            text-align: left;
+  
+            p {
+              font-size: 1rem;
+              color: #fff;
+              margin-bottom: 5px;
+            }
+  
+            small {
+              color: #aaa;
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+  
+      .progress-overview {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #272727;
+        border-radius: 10px;
+        padding: 20px;
+  
+        div {
+          width: 100%;
+          max-width: 120px;
+          text-align: center;
+          margin-bottom: 20px;
+  
+          h3 {
+            font-size: 1.5rem;
+            color: #ffef00;
+          }
+  
+          p {
+            font-size: 1rem;
+            color: #ddd;
+          }
+        }
+  
+        .nutrients {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 10px;
+          span {
+            font-size: 0.9rem;
+            color: #aaa;
+          }
+        }
+      }
+  
+      .calendar-section, 
+      .steps-section {
+        .calendar, 
+        .steps-bar-chart {
+          margin-top: 10px;
+          height: 200px;
+          background-color: #333333;
+          border-radius: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #ccc;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  
