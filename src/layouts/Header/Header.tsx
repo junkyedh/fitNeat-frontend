@@ -91,14 +91,23 @@ const Header = () => {
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
-            <div className="ms-md-4 ms-2">
-              <NavLink to="/booking" className="primaryBtn d-none d-sm-inline-block">
-                Book Now
-              </NavLink>
-              <li className="d-inline-block d-lg-none ms-3 toggle_btn">
-                <i className={open ? "bi bi-x-lg" : "bi bi-list"}  onClick={toggleMenu}></i>
-              </li>
+            <div className="ms-md-4 mt-3 align-items-center primaryBtn">
+              <NavDropdown title="Notifications" id="notification-dropdown">
+              <NavDropdown.Item href="#action1">Notification 1</NavDropdown.Item>
+              <NavDropdown.Item href="#action2">Notification 2</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Notification 3</NavDropdown.Item>
+              </NavDropdown>
             </div>
+            <div className="ms-md-4 mt-3 align-items-center primaryBtn">
+              <NavDropdown title="User" id="user-dropdown" className="ms-3">
+                <NavDropdown.Item onClick={() => navigate("/profile")}>Profile</NavDropdown.Item>
+              <NavDropdown.Item href="#settings">Settings</NavDropdown.Item>
+              <NavDropdown.Item href="#logout">Logout</NavDropdown.Item>
+              </NavDropdown>
+              </div>
+              <li className="d-inline-block d-lg-none ms-3 toggle_btn">
+              <i className={open ? "bi bi-x-lg" : "bi bi-list"} onClick={toggleMenu}></i>
+              </li>
           </Navbar>
     
       </Container>

@@ -155,3 +155,26 @@ header {
   padding: 5px 8px !important;
   background-color: var(--primaryClr) !important;
 }
+.notification-btn,
+.user-btn {
+  color: var(--white) !important;
+  font-size: 16px;
+  cursor: pointer;
+
+  .dropdown-menu {
+    //background: var(--black);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+    .dropdown-item {
+      color: var(--white) !important;
+      padding: 8px 12px;
+
+      &:hover {
+        background: var(--primaryClr);
+        color: var(--white) !important;
+      }
+    }
+  }
+}
