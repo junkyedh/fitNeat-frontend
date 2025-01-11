@@ -40,7 +40,7 @@ const BodyStatsComponent: React.FC = () => {
             <text
               x="71px"
               y="115px"
-              fill="thistle"
+              fill="var(--backgroundClr2)"
               fontSize="52px"
               fontWeight="bold"
               style={{ transform: "rotate(90deg) translate(0px, -196px)" }}

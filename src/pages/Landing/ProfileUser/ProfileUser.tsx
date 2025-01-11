@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "./ProfileUser.scss";
 import userImg from "@/assets/cus1.jpg";
 import { Tag, message } from "antd";
-import Breadcrumbs from "../../layouts/Breadcrumbs/Breadcrumbs";
+import Breadcrumbs from "../../../layouts/Breadcrumbs/Breadcrumbs";
 
 const ProfileUser = () => {
   const navigate = useNavigate();
@@ -96,7 +96,7 @@ const ProfileUser = () => {
               onSubmit={handleUpdateProfile}
               style={{ padding: "0 1rem"}}>
               <Form.Group controlId="name" className="mb-4">
-                <Form.Label>Full Name</Form.Label>
+                <Form.Label style={{color:"var(--black)"}}>Full Name</Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Enter your name"
@@ -105,7 +105,7 @@ const ProfileUser = () => {
                 />
               </Form.Group>
               <Form.Group controlId="email" className="mb-4">
-                <Form.Label>Email</Form.Label>
+                <Form.Label style={{color:"var(--black)"}}>Email</Form.Label>
                 <Form.Control
                   type="email"
                   placeholder="Enter your email"
@@ -116,7 +116,7 @@ const ProfileUser = () => {
               </Form.Group>
 
               <Form.Group controlId="phone" className="mb-4">
-                <Form.Label>Phone</Form.Label>
+                <Form.Label style={{color:"var(--black)"}}>Phone</Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Enter your phone number"
