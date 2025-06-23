@@ -1,31 +1,30 @@
 # fitNear Frontend
 
-**fitNear** is a frontend web application designed to help users discover, book, and manage fitness activities and facilities nearby. Built with modern technologies like TypeScript and SCSS, fitNear aims to deliver a fast, responsive, and user-friendly experience.
+**fitNear** is a user interface (UI) project developed as part of the Human-Computer Interaction (HCI) course. This project focuses solely on building a modern, responsive, and user-friendly frontend for a fitness and gym discovery application. No backend or business logic is implemented—only the UI/UX components are provided.
 
-## Features
+## Project Overview
 
-- **Browse Fitness Facilities:** Search and explore gyms, studios, and fitness centers near your location.
-- **Activity Booking:** Book classes, sessions, or events with just a few clicks.
-- **User Profiles:** Manage your profile, bookings, and activity history.
-- **Responsive UI:** Optimized for mobile and desktop devices.
-- **Modern Design:** Clean interface using SCSS and modular TypeScript code.
+- **Course:** Human-Computer Interaction (HCI)
+- **Scope:** UI/UX Design and Implementation (Frontend Only)
+- **Main Technologies:** TypeScript, SCSS, CSS, HTML, JavaScript
+
+## Features (UI Only)
+
+- **Home Page:** Attractive landing page introducing the service.
+- **Explore Gyms:** Browse/search for local gyms and fitness centers (UI mockup only).
+- **Class Booking:** Interface for booking classes and viewing schedules (UI only, no real booking).
+- **Profile Management:** UI for user profile, preferences, and activity history.
+- **Reviews & Ratings:** Pages for reading/writing reviews (UI only).
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
 
 ## Tech Stack
 
-- **TypeScript**: Main programming language for robust, type-safe code.
-- **React**: Component-based UI framework (if used; update if not).
-- **SCSS & CSS**: Styling and responsive layouts.
-- **HTML**: Markup structure.
-- **JavaScript**: Additional logic and interactivity.
+- **TypeScript** — Main programming language for robust UI components.
+- **React** (if used) — UI library for building component-based interfaces.
+- **SCSS / CSS** — Styling and layout.
+- **HTML, JavaScript** — Additional structure and logic as needed.
 
 ## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v14 or later recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Installation
 
 1. **Clone the repository:**
    ```bash
@@ -33,42 +32,32 @@
    cd fitNear-frontend
    ```
 
-2. **Install dependencies:**
+2. **Install dependencies:**  
+   Make sure you have [Node.js](https://nodejs.org/) installed.
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
-3. **Run the application:**
+3. **Run the development server:**  
    ```bash
    npm start
-   # or
-   yarn start
    ```
-
-4. **Open your browser:**  
-   Visit [http://localhost:3000](http://localhost:3000) to view the app.
-
-### Configuration
-
-- Update environment variables (e.g., API endpoints) in a `.env` file at the project root as needed.
+   Open [http://localhost:3000](http://localhost:3000) to view the project in your browser.
 
 ## Usage
 
-- Sign up or log in to your account.
-- Search for nearby fitness facilities or classes.
-- Book your preferred activity and manage your reservations in your profile.
+- This project is **UI only**—all features are mockups or static pages.
+- Navigation and basic UI interactions are available for demonstration purposes.
+
+## Screenshots
+
+<!-- Add screenshots of your UI here if available -->
+<!-- ![fitNear Home](screenshots/home.png) -->
 
 ## Contribution
 
 Contributions are welcome!  
-To contribute:
-
-1. Fork this repository.
-2. Create a new branch for your feature or bugfix.
-3. Commit your changes.
-4. Open a pull request describing your changes.
+To contribute, fork the repository, create a new branch, make your changes, and open a pull request.
 
 ## License
 
@@ -76,4 +65,4 @@ This project is licensed under the MIT License.
 
 ---
 
-*Feel free to add screenshots or more details about your project’s features and structure!*
+*This project was developed as a final assignment for the HCI course and demonstrates UI/UX skills only, without backend or data processing logic.*
