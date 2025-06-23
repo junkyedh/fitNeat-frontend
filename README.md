@@ -1,28 +1,28 @@
-# fitNear Frontend
+# fitNeat Frontend
 
-**fitNear** is a user interface (UI) project developed as part of the Human-Computer Interaction (HCI) course. This project focuses solely on building a modern, responsive, and user-friendly frontend for a fitness and gym discovery application. No backend or business logic is implemented—only the UI/UX components are provided.
+**fitNeat** is a user interface (UI) project developed for the Human-Computer Interaction (HCI) course. This project focuses solely on building an interactive, modern, and responsive frontend for a fitness-related application. No backend or business logic is implemented—this is a UI/UX design and prototyping project.
 
 ## Project Overview
 
 - **Course:** Human-Computer Interaction (HCI)
-- **Scope:** UI/UX Design and Implementation (Frontend Only)
-- **Main Technologies:** TypeScript, SCSS, CSS, HTML, JavaScript
+- **Purpose:** Demonstrate UI/UX design skills for a fitness management/discovery app
+- **Scope:** UI only (no backend, no real data)
 
-## Features (UI Only)
+## Features
 
-- **Home Page:** Attractive landing page introducing the service.
-- **Explore Gyms:** Browse/search for local gyms and fitness centers (UI mockup only).
-- **Class Booking:** Interface for booking classes and viewing schedules (UI only, no real booking).
-- **Profile Management:** UI for user profile, preferences, and activity history.
-- **Reviews & Ratings:** Pages for reading/writing reviews (UI only).
-- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Landing Page:** Introduction and quick access to main features
+- **Explore Gyms & Classes:** Browse a list of fitness centers, classes, and activities
+- **Booking Flow (UI only):** Simulate booking a class or gym session
+- **User Profile Screens:** View and edit mock user information, preferences, and activity history
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices
+- **Modern UI Elements:** Engaging visuals, smooth navigation, and clear information hierarchy
 
 ## Tech Stack
 
-- **TypeScript** — Main programming language for robust UI components.
-- **React** (if used) — UI library for building component-based interfaces.
-- **SCSS / CSS** — Styling and layout.
-- **HTML, JavaScript** — Additional structure and logic as needed.
+- **TypeScript** — Main language
+- **React** — Component-based UI library
+- **SCSS, CSS** — Styling and layout
+- **HTML** — Markup
 
 ## Getting Started
 
@@ -33,7 +33,7 @@
    ```
 
 2. **Install dependencies:**  
-   Make sure you have [Node.js](https://nodejs.org/) installed.
+   (Requires [Node.js](https://nodejs.org/))
    ```bash
    npm install
    ```
@@ -42,27 +42,22 @@
    ```bash
    npm start
    ```
-   Open [http://localhost:3000](http://localhost:3000) to view the project in your browser.
+   The app will open at [http://localhost:3000](http://localhost:3000).
 
 ## Usage
 
-- This project is **UI only**—all features are mockups or static pages.
-- Navigation and basic UI interactions are available for demonstration purposes.
-
-## Screenshots
-
-<!-- Add screenshots of your UI here if available -->
-<!-- ![fitNear Home](screenshots/home.png) -->
+- Browse all available UI screens to evaluate layout, navigation, and design.
+- Try the booking and profile flows to experience the user journey (UI only, no data is saved).
+- Responsive design—resize your browser or use dev tools to view on different devices.
 
 ## Contribution
 
-Contributions are welcome!  
-To contribute, fork the repository, create a new branch, make your changes, and open a pull request.
+Since this is a course project focused on UI, contributions are generally not expected. However, feedback on design and usability is welcome!
 
 ## License
 
-This project is licensed under the MIT License.
+This project is for educational purposes and demonstrates UI prototyping and HCI best practices.
 
 ---
 
-*This project was developed as a final assignment for the HCI course and demonstrates UI/UX skills only, without backend or data processing logic.*
+*If you have screenshots or demo images, please add them below to showcase the interface!*
